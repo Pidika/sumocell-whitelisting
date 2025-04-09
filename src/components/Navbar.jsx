@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react'
 const Navbar = () => {
   return (
     <nav className='flex justify-between items-center py-6 px-8 md:px-24 max-w-7xl mx-auto w-full'>
-      <div className='flex items-center'>
+      <div className='flex items-center flex-col'>
         <div className='bg-black rounded-full h-10 w-24 flex items-center justify-center'>
           <div className='bg-white w-16 h-2 rounded-full'></div>
         </div>
